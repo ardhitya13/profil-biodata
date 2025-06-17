@@ -13,10 +13,15 @@
       color: white;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    .hero-box img {
-      max-width: 100%;
-      border-radius: 10px;
+
+    .hero-photo {
+      max-width: 280px;
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      border: 5px solid #fff;
     }
+
     .biodata-card {
       border: 1px solid #dee2e6;
       border-radius: 10px;
@@ -24,10 +29,12 @@
       background-color: #f8f9fa;
       height: 100%;
     }
+
     .biodata-card:hover {
       background-color: #e9ecef;
       transition: 0.3s;
     }
+
     .card img {
       height: 200px;
       object-fit: cover;
@@ -66,7 +73,7 @@
         </div>
       </div>
       <div class="col-md-6 text-center">
-        <img src="images/ardhitya.png" alt="Foto Ardhitya" class="img-fluid rounded shadow">
+        <img src="images/ardhitya.png" alt="Foto Ardhitya" class="hero-photo">
       </div>
     </div>
   </div>
@@ -89,36 +96,16 @@
   <div class="container">
     <h2 class="text-center mb-4">Biodata</h2>
     <div class="row row-cols-1 row-cols-md-3 g-3">
-      <div class="col">
-        <div class="biodata-card">👤 Nama: <strong>Ardhitya Danur Siswondo</strong></div>
-      </div>
-      <div class="col">
-        <div class="biodata-card">🆔 NIM: <strong>3312411099</strong></div>
-      </div>
-      <div class="col">
-        <div class="biodata-card">🏫 Jurusan: <strong>Teknik Informatika</strong></div>
-      </div>
-      <div class="col">
-        <div class="biodata-card">🎓 Kampus: <strong>Politeknik Negeri Batam</strong></div>
-      </div>
-      <div class="col">
-        <div class="biodata-card">📧 Email: <strong>ardhityasiswondo@gmail.com</strong></div>
-      </div>
-      <div class="col">
-        <div class="biodata-card">📱 No HP: <strong>081363723553</strong></div>
-      </div>
-      <div class="col">
-        <div class="biodata-card">🔗 GitHub: <a href="https://github.com/ardhitya13" target="_blank">github.com/ardhitya13</a></div>
-      </div>
-      <div class="col">
-        <div class="biodata-card">📸 Instagram: <a href="https://www.instagram.com/ardhitya__/" target="_blank">ardhitya__</a></div>
-      </div>
-      <div class="col">
-        <div class="biodata-card">📘 Facebook: <a href="https://www.facebook.com/ardhitya.siswondo.3/" target="_blank">ardhitya.siswondo.3</a></div>
-      </div>
-      <div class="col">
-        <div class="biodata-card">🎵 TikTok: <a href="https://www.tiktok.com/@ardhitya2.0" target="_blank">@ardhitya2.0</a></div>
-      </div>
+      <div class="col"><div class="biodata-card">👤 Nama: <strong>Ardhitya Danur Siswondo</strong></div></div>
+      <div class="col"><div class="biodata-card">🆔 NIM: <strong>3312411099</strong></div></div>
+      <div class="col"><div class="biodata-card">🏫 Jurusan: <strong>Teknik Informatika</strong></div></div>
+      <div class="col"><div class="biodata-card">🎓 Kampus: <strong>Politeknik Negeri Batam</strong></div></div>
+      <div class="col"><div class="biodata-card">📧 Email: <strong>ardhityasiswondo@gmail.com</strong></div></div>
+      <div class="col"><div class="biodata-card">📱 No HP: <strong>081363723553</strong></div></div>
+      <div class="col"><div class="biodata-card">🔗 GitHub: <a href="https://github.com/ardhitya13" target="_blank">github.com/ardhitya13</a></div></div>
+      <div class="col"><div class="biodata-card">📸 Instagram: <a href="https://www.instagram.com/ardhitya__/" target="_blank">ardhitya__</a></div></div>
+      <div class="col"><div class="biodata-card">📘 Facebook: <a href="https://www.facebook.com/ardhitya.siswondo.3/" target="_blank">ardhitya.siswondo.3</a></div></div>
+      <div class="col"><div class="biodata-card">🎵 TikTok: <a href="https://www.tiktok.com/@ardhitya2.0" target="_blank">@ardhitya2.0</a></div></div>
     </div>
   </div>
 </section>
@@ -154,31 +141,27 @@
 
 <!-- Modals -->
 <div class="modal fade" id="rentalModal" tabindex="-1" aria-labelledby="rentalModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="rentalModalLabel">Rental Mobil</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
-      </div>
-      <div class="modal-body">
-        Proyek sistem rental mobil berbasis web menggunakan HTML, CSS, dan PHP. Tahun: 2024
-      </div>
+  <div class="modal-dialog"><div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="rentalModalLabel">Rental Mobil</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
     </div>
-  </div>
+    <div class="modal-body">
+      Proyek sistem rental mobil berbasis web menggunakan HTML, CSS, dan PHP. Tahun: 2024
+    </div>
+  </div></div>
 </div>
 
 <div class="modal fade" id="kursusModal" tabindex="-1" aria-labelledby="kursusModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="kursusModalLabel">Kursus Bahasa</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
-      </div>
-      <div class="modal-body">
-        Platform kursus bahasa asing online menggunakan Laravel dan Tailwind CSS. Tahun: 2025
-      </div>
+  <div class="modal-dialog"><div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="kursusModalLabel">Kursus Bahasa</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
     </div>
-  </div>
+    <div class="modal-body">
+      Platform kursus bahasa asing online menggunakan Laravel dan Tailwind CSS. Tahun: 2025
+    </div>
+  </div></div>
 </div>
 
 <!-- Footer -->
